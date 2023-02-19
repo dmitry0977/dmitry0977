@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: dmitry
+    password: admin
+    url: jdbc:postgresql:http://localhost:5432/burst
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: create
+    show-sql: true
