@@ -2,7 +2,7 @@ spring:
   datasource:
     username: dmitry
     password: admin
-    url: jdbc:postgresql:http://localhost:5432/burst
+    url: jdbc:postgresql://localhost:5432/burst
     driver-class-name: org.postgresql.Driver
   jpa:
     database: postgresql
